@@ -1,0 +1,23 @@
+{
+  "name": "mcsonic",
+  "version": "1.0.0",
+  "description": "Burger Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RP422/McSonic.git"
+  },
+  "author": "Team Um",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RP422/McSonic/issues"
+  },
+  "homepage": "https://github.com/RP422/McSonic#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "pug": "^2.0.0-rc.2"
+  }
+}
