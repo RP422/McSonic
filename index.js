@@ -1,7 +1,7 @@
-var express = require('express'),
-    pug = require('pug'),
-    path = require('path'),
-    config = require('./config');
+var express = require('express'), 
+		pug = require('pug'),
+		path = require('path'),
+		config = require('./config');
 
 var app = express();
 
