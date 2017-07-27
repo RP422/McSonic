@@ -10,5 +10,8 @@
 			
 		]
 	},
-	"nav": []
+	"nav": [
+		["Directions","directions"],
+		["Menu","menu"]
+	]
 }
