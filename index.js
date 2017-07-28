@@ -38,8 +38,8 @@ app.get('/menu/:menuCategory', function(req, res) {
 });
 
 app.get('/:page', function(req, res){
-  console.log(req.params.page)
-  res.render(req.params.page, {title: req.params.page, config: config})
+	console.log(req.params.page)
+	res.render(req.params.page, {title: req.params.page, config: config})
 });
 
 app.listen(3000);
