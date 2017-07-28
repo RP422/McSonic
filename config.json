@@ -1,14 +1,16 @@
 {
 	"menu": {
 		"burgers": [
-			
+
 		],
 		"sides": [
-			
+
 		],
 		"desserts": [
-			
+
 		]
 	},
-	"nav": []
+	"nav": [
+		"Burgers", "Sides", "Desserts"
+	]
 }
