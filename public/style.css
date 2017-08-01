@@ -1,0 +1,25 @@
+body{
+    color: #f2dc9b;
+    background: #d9a05b;
+}
+
+div {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #a65132;
+    border-radius: 20px;
+    background: #732020;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: #f2dc9b; 
+}
+
+li > a:visited{
+    color: #678c42;
+}

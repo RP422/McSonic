@@ -1,2 +1,14 @@
-h1
-	
+extends layout
+
+block content
+    h2=title
+    p This is the menu
+    ul
+        each item in config.menu.burgers
+            li=item
+    ul
+        each item in config.menu.sides
+            li=item
+    ul
+        each item in config.menu.desserts
+            li=item

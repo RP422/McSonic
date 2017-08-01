@@ -1,16 +1,26 @@
 {
 	"menu": {
 		"burgers": [
-			
+			"burger 1",
+			"burger 2",
+			"burger 3",
+			"burger 4"
 		],
 		"sides": [
-			
+			"side 1",
+			"side 2",
+			"side 3",
+			"side 4"
 		],
-		"deserts": [
-			
+		"desserts": [
+			"dessert 1",
+			"dessert 2",
+			"dessert 3",
+			"dessert 4"
 		]
 	},
 	"nav": [
+		["Home","index"],
 		["Directions","directions"],
 		["Menu","menu"]
 	]
