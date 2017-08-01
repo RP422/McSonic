@@ -1,27 +1,24 @@
 {
-	"menu": {
+	"menu": { // Format [ItemName, ItemDescription, PathToImage]
 		"burgers": [
-			"burger 1",
-			"burger 2",
-			"burger 3",
-			"burger 4"
+
 		],
 		"sides": [
-			"side 1",
-			"side 2",
-			"side 3",
-			"side 4"
+
 		],
 		"desserts": [
-			"dessert 1",
-			"dessert 2",
-			"dessert 3",
-			"dessert 4"
+			["Pure Unfiltered Evil", "Our mad scientists in the McSonic laboratories have come up with this diabolical creation. It's a mixed bowl filled with M&Ms and Skittles. We don't know (and don't care) how much of either is in the bowl. Just that there's both. Enjoy.", "/images/skittles-mms.jpg"],
+			
+			["Misfortune Cookie", "Description", "/images/misfortune-cookies.jpg"],
+			
+			["Your Words", "Description", "Path"],
+			
+			["Foie Gras Just Desserts", "We force feed you a third of your body weight in grains.", "Path"],
+			
+			["Broken Cookie Platter", "Description", "Path"]
 		]
 	},
 	"nav": [
-		["Home","index"],
-		["Directions","directions"],
-		["Menu","menu"]
+		"Burgers", "Sides", "Desserts"
 	]
 }

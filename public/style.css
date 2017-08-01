@@ -1,25 +1,74 @@
-body{
-    color: #f2dc9b;
-    background: #d9a05b;
+* {
+	margin: 0px;
+	padding: 0px;
 }
 
-div {
-    width: 65%;
-    margin: auto;
-    text-align: center;
-    border: 2px solid #a65132;
-    border-radius: 20px;
-    background: #732020;
+html, body {
+	background: #6F0000;
+	height: 100%;
 }
 
-ul{
-    list-style-type: none;
+header {
+	background: #A00;
+	height: 50px;
+	width: 100%;
+	display: block;
+	float: left;
 }
 
-a{
-    color: #f2dc9b; 
+nav {
+	display: inline-block;
+	height: 50px;
+	margin-left: 20px;
 }
 
-li > a:visited{
-    color: #678c42;
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	line-height: 50px;
+	vertical-align: middle;
+	float: left;
+}
+
+nav ul li a {
+	display: inline-block;
+	color: #FFF;
+	text-decoration: none;
+	margin-right: 50px;
+	padding: 0px 10px;
+	transition: all .25s ease-out;
+	min-width: 50px;
+	text-align: center;
+}
+
+nav ul li a:hover {
+	border: 1px solid #FFF;
+	background: #FFF;
+	color: #A00;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #A00;
+	cursor: pointer;
+	transition: all .25s ease-out;
+	box-shadow: 1px 1px 1px #AAA;
+}
+
+header h1 {
+	color: #FFF;
+	padding: 5px;
+	margin-left: 20px;
+	display: inline-block;
+	float: left;
+}
+
+.header-wrapper {
+	max-width: 980px;
+	margin: 0 auto;
+	height: 50px;
+}
+
+#content {
+	width: 980px;
+	margin: 0 auto;
+	height: 100%;
+	background: #FFF;
 }
