@@ -1,10 +1,13 @@
 {
-	"menu": { // Format [ItemName, ItemDescription, PathToImage]
+	"menu": {
 		"burgers": [
 
 		],
 		"sides": [
-
+			["Fries", "Description", "/images/french-fries.jpg"],
+			["Mashed Potatoes", "Description", "/images/po-8-os.jpg"],
+			["Mac and Cheese", "Description", "/images/plated-mac-and-cheese.jpg"],
+			["Salad", "Description", "/images/salad.jpg"]
 		],
 		"desserts": [
 			["Pure Unfiltered Evil", "Our mad scientists in the McSonic laboratories have come up with this diabolical creation. It's a mixed bowl filled with M&Ms and Skittles. We don't know (and don't care) how much of either is in the bowl. Just that there's both. Enjoy.", "/images/skittles-mms.jpg"],
@@ -12,13 +15,13 @@
 			["Misfortune Cookie", "Description", "/images/misfortune-cookies.jpg"],
 			
 			["Your Words", "Description", "Path"],
-			
+
 			["Foie Gras Just Desserts", "We force feed you a third of your body weight in grains.", "Path"],
 			
 			["Broken Cookie Platter", "Description", "Path"]
 		]
 	},
 	"nav": [
-		"Burgers", "Sides", "Desserts"
+		"Burgers", "Sides", "Desserts", "Directions"
 	]
 }

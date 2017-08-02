@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    ul
+        each item in config.menu.sides
+            li
+                div
+                    p=item[0]
+                    p=item[1]
+                    img(src=item[2], width=250, height=250)
