@@ -18,13 +18,13 @@ app.get('/menu/:menuCategory', function(req, res) {
 	var submenu;
 	
 	if(req.params.menuCategory == "Burgers") {
-		suBmenu = config.menu.burgers;
+		submenu = config.menu.Burgers;
 	}
 	else if (req.params.menuCategory == "Sides") {
-		submenu = config.menu.sides;
+		submenu = config.menu.Sides;
 	}
 	else if (req.params.menuCategory == "Desserts") {
-		submenu = config.menu.desserts;
+		submenu = config.menu.Desserts;
 	}
 	else {
 		// 404 redirect
@@ -34,7 +34,7 @@ app.get('/menu/:menuCategory', function(req, res) {
 	res.render('menu', 
 						 {title: req.params.menuCategory,
 							config: config,
-							submenu: req.params.menuCategory
+							submenu: submenu
 						 });
 });
 

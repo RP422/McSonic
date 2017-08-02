@@ -1,7 +1,10 @@
-ul
-	each item in config.menu.submenu
-		li
-			h3.itemName=item["name"]
-			p.itemDescription=item["description"]
-			img.itemIm(src=item["img_path"])
+extends layout
+
+block content
+	ul
+		each item in submenu
+			li
+				h3.itemName=item["name"]
+				p.itemDescription=item["description"]
+				img.itemImg(src=item["img_path"])
 				
