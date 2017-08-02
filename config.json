@@ -34,27 +34,27 @@
 			{
 				"name": "Pure Unfiltered Evil",
 				"description": "Our mad scientists in the McSonic laboratories have come up with this diabolical creation. It's a mixed bowl filled with M&Ms and Skittles. We don't know (and don't care) how much of either is in the bowl. Just that there's both. Enjoy.",
-				"img-path": "/images/skittles-mms.jpg"
+				"img_path": "/images/desserts/skittles-mms.jpg"
 			},
 			{
 				"name": "Misfortune Cookie",
 				"description": "",
-				"img-path": "/images/misfortune-cookies.jpg"
+				"img-path": "/images/desserts/misfortune-cookies.jpg"
 			},
 			{
 				"name": "Your Words",
 				"description": "",
-				"img-path": "/images/your-words-sample.jpg"
+				"img_path": "/images/desserts/your-words-sample.jpg"
 			},
 			{
 				"name": "Foie Gras Just Desserts",
 				"description": "We force feed you a third of your body weight in grains. Hope you had a light meal.",
-				"img-path": "/images/grains.jpg"
+				"img_path": "/images/desserts/grains.jpg"
 			},
 			{
 				"name": "Broken Cookie Platter",
 				"description": "",
-				"img-path": "/images/broken-cookie.jpg"
+				"img_path": "/images/desserts/broken-cookie.jpg"
 			}
 		]
 	},
