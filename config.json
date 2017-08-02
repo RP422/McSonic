@@ -1,12 +1,12 @@
 {
-	"menu": { // Format [ItemName, ItemDescription, PathToImage]
-		"burgers": [
+	"menu": {
+		"Burgers": [
 
 		],
-		"sides": [
+		"Sides": [
 
 		],
-		"desserts": [
+		"Desserts": [
 			{
 				"name": "Pure Unfiltered Evil",
 				"description": "Our mad scientists in the McSonic laboratories have come up with this diabolical creation. It's a mixed bowl filled with M&Ms and Skittles. We don't know (and don't care) how much of either is in the bowl. Just that there's both. Enjoy.",

@@ -1,10 +1,7 @@
 ul
-	each item in menu
+	each item in config.menu.submenu
 		li
-			// display the menu item, its image, and its description
-			h3 class="itemName"
-				#{item["name"]}
-			p class="itemDescription"
-				#{item["description"]}
-			img class="itemImg" src=item["img-path"]
+			h3.itemName=item["name"]
+			p.itemDescription=item["description"]
+			img.itemIm(src=item["img_path"])
 				
