@@ -34,7 +34,6 @@ app.get('/menu/:menuCategory', function(req, res) {
 	res.render(req.params.page, 
 						 {title: req.params.page,
 							config: config,
-							menu: submenu
 						 });
 });
 

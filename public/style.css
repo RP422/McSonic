@@ -70,5 +70,39 @@ header h1 {
 	width: 980px;
 	margin: 0 auto;
 	height: 100%;
-	background: #FFF;
+	background: #ffd349
+}
+
+.food-display {
+	width: 600px;
+	margin: 0 auto;
+}
+
+/* Container for an individual item */
+.food-item {
+	max-width: 250px;
+	float: left;
+	border: 1px solid blue;
+	border: 1px solid #A00;
+	margin: 10px;
+}
+
+/* Food item title */
+.food-item h3 {
+	text-align: center;
+	padding: 5px;
+	color: #FFF;
+	background: #A00;
+	border-bottom: 1px solid #A00;
+}
+
+.food-item img {
+	max-width: 250px;
+	vertical-align: middle;
+	margin-top: 10px;
+}
+
+/* Description of a food item */
+.food-item p {
+	font-style: italic;
 }
