@@ -1,10 +1,9 @@
-ul
-	each item in menu
-		li
-			// display the menu item, its image, and its description
-			h3 class="itemName"
-				#{item["name"]}
-			p class="itemDescription"
-				#{item["description"]}
-			img class="itemImg" src=item["img-path"]
-				
+extends layout
+
+block content
+	div(class='food-display')
+		each item in submenu
+			div(class='food-item')
+				h3 #{item.name}
+				img(src=`/${item.img_path}`)
+				p #{item.description}

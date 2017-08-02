@@ -13,17 +13,16 @@ app.get('/', function(req, res){
   res.render('index', {title: "Homepage", config: config});
 });
 
-app.get('/menu/:menuCategory', function(req, res) {
-	
+app.get('/:page', function(req, res){
 	var submenu;
 	
-	if(req.params.menuCategory == "burgers") {
+	if(req.params.page == "Burgers") {
 		submenu = config.menu.burgers;
 	}
-	else if (req.params.menuCategory == "sides") {
+	else if (req.params.page == "Sides") {
 		submenu = config.menu.sides;
 	}
-	else if (req.params.menuCategory == "desserts") {
+	else if (req.params.page == "Desserts") {
 		submenu = config.menu.desserts;
 	}
 	else {
@@ -31,15 +30,8 @@ app.get('/menu/:menuCategory', function(req, res) {
 		throw '404 - Page not found';
 	}
 	
-	res.render(req.params.page, 
-						 {title: req.params.page,
-							config: config,
-						 });
-});
-
-app.get('/:page', function(req, res){
 	console.log(req.params.page)
-	res.render(req.params.page, {title: req.params.page, config: config})
+	res.render('menu', {title: req.params.page, config: config, submenu: submenu})
 });
 
 app.listen(3000);
