@@ -1,9 +1,0 @@
-extends layout
-
-block content
-	div(class='food-display')
-		each item in config.menu.burgers
-			div(class='food-item')
-				h3 #{item.name}
-				img(src=`/${item.img_path}`)
-				p #{item.description}
