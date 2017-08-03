@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700');
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -6,6 +8,7 @@
 html, body {
 	background: #6F0000;
 	height: 100%;
+	font-family: 'Droid Serif', 'serif';
 }
 
 header {
@@ -60,6 +63,18 @@ header h1 {
 	float: left;
 }
 
+#header-logo {
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	line-height: 50px;
+	vertical-align: middle;
+	display: inline-block;
+	float: left;
+	font-weight: bold;
+	margin-left: 30px;
+}
+
 .header-wrapper {
 	max-width: 980px;
 	margin: 0 auto;
@@ -67,11 +82,26 @@ header h1 {
 }
 
 #content {
-	width: 980px;
+	width: 85%;
 	margin: 0 auto;
 	height: 100%;
-	background: #ffd349
+	background: #ffd349;
 }
+
+#content h2 {
+	text-align: center;
+	font-size: 24px;
+	border-bottom: 1px solid #000;
+	display: inline-block;
+	padding-bottom: 5px;
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
+
+#content p {
+	margin-left: 25px;
+}
+
 
 .food-display {
 	width: 600px;
@@ -105,4 +135,9 @@ header h1 {
 /* Description of a food item */
 .food-item p {
 	font-style: italic;
+}
+
+#home-burger {
+	margin: 0 auto;
+	display: block;
 }

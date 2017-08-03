@@ -5,14 +5,12 @@ html
 	body
 		header
 			div(class='header-wrapper')
-				h1 McSonic
+				a(href='/' id='header-logo') McSonic
 				nav
 					ul
 						each item in config.nav
 							li
 								a(href=`/${item}`) #{item}
 		div(id='content')
-			h2(class='page-title') #{title}
-			p Welcome to McSonic Burgers
 			block content
 		footer
