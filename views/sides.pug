@@ -1,9 +1,11 @@
 extends layout
 
 block content
-    ul
-        each item in config.menu["Sides"]
-            li
-                h3.itemName=item["name"]
-                p.itemDescription=item["description"]
-                img.itemIm(src=item["img_path"])
+	h2(class='page-title') #{title}
+	p Welcome to McSonic Burgers
+	div(class='food-display')
+		each item in config.menu["Sides"]
+			div(class='food-item')
+				h3 #{item.name}
+				img(src=`/${item.img_path}`)
+				p #{item.description}

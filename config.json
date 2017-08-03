@@ -31,22 +31,22 @@
 			{
 				"name": "Fries",
 				"description": "Home cut fries cooked to perfection",
-				"img_path": "/images/sides/french-fries.jpg"
+				"img_path": "images/sides/french-fries.jpg"
 			},
 			{
 				"name": "Mashed Potatoes",
 				"description": "Perfect mashers made in house",
-				"img_path": "/images/sides/po-8-os.jpg"
+				"img_path": "images/sides/po-8-os.jpg"
 			},
 			{
 				"name": "Mac and Cheese",
 				"description": "The finest noodles and cheese combined to make heaven in a bowl",
-				"img_path": "/images/sides/plated-mac-and-cheese.jpg"
+				"img_path": "images/sides/plated-mac-and-cheese.jpg"
 			},
 			{
 				"name": "House Salad",
 				"description": "A simple salad",
-				"img_path": "/images/sides/salad.jpg"
+				"img_path": "images/sides/salad.jpg"
 			}
 		],
 		"Desserts": [
