@@ -17,13 +17,13 @@ app.get('/menu/:menuCategory', function(req, res) {
 	
 	var submenu;
 	
-	if(req.params.menuCategory == "burgers") {
-		submenu = config.menu.burgers;
+	if(req.params.menuCategory == "Burgers") {
+		suBmenu = config.menu.burgers;
 	}
-	else if (req.params.menuCategory == "sides") {
+	else if (req.params.menuCategory == "Sides") {
 		submenu = config.menu.sides;
 	}
-	else if (req.params.menuCategory == "desserts") {
+	else if (req.params.menuCategory == "Desserts") {
 		submenu = config.menu.desserts;
 	}
 	else {
@@ -31,10 +31,10 @@ app.get('/menu/:menuCategory', function(req, res) {
 		throw '404 - Page not found';
 	}
 	
-	res.render(req.params.page, 
-						 {title: req.params.page,
+	res.render('menu', 
+						 {title: req.params.menuCategory,
 							config: config,
-							menu: submenu
+							submenu: req.params.menuCategory
 						 });
 });
 

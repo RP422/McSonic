@@ -2,9 +2,8 @@ extends layout
 
 block content
     ul
-        each item in config.menu.sides
+        each item in config.menu["Sides"]
             li
-                div
-                    p=item[0]
-                    p=item[1]
-                    img(src=item[2], width=250, height=250)
+                h3.itemName=item["name"]
+                p.itemDescription=item["description"]
+                img.itemIm(src=item["img_path"])
