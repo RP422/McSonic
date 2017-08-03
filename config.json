@@ -38,22 +38,22 @@
 			},
 			{
 				"name": "Misfortune Cookie",
-				"description": "",
+				"description": "Have a bad day.",
 				"img_path": "images/desserts/misfortune-cookies.jpg"
 			},
 			{
 				"name": "Your Words",
-				"description": "",
+				"description": "Send us a copy of what someone in your party said, and we'll make them eat their words.",
 				"img_path": "images/desserts/your-words-sample.jpg"
 			},
 			{
 				"name": "Foie Gras Just Desserts",
-				"description": "We force feed you a third of your body weight in grains. Hope you had a light meal.",
+				"description": "We force feed you a third of your body weight in grains. Hope you had a light meal!",
 				"img_path": "images/desserts/grains.jpg"
 			},
 			{
 				"name": "Broken Cookie Platter",
-				"description": "",
+				"description": "This would be a normal cookie platter, but the cookies kept on breaking. Instead of wasting about 30 cookies per platter, we decided to include the broken cookies.",
 				"img_path": "images/desserts/broken-cookie.jpg"
 			}
 		]
