@@ -2,3 +2,9 @@ ul
 	each item in config.menu
 		li
 			// display the menu item, its image, and its description
+			h3 class="itemName"
+				#{item["name"]}
+			p class="itemDescription"
+				#{item["description"]}
+			img class="itemImg" src=item["img-path"]
+				

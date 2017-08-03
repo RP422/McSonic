@@ -33,7 +33,8 @@ app.get('/menu/:menuCategory', function(req, res) {
 	
 	res.render(req.params.page, 
 						 {title: req.params.page,
-							menu: summenu
+							config: config,
+							menu: submenu
 						 });
 });
 
