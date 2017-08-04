@@ -43,5 +43,4 @@ app.get('/:page', function(req, res){
 		submenu: submenu
 	});	 
 });
-
 app.listen(3000);
