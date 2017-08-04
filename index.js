@@ -13,6 +13,13 @@ app.get('/', function(req, res){
   res.render('index', {title: "Homepage", config: config});
 });
 
+app.get('/Directions', function(req, res){
+	res.render('directions', {
+		title: 'Directions',
+		config: config
+	})
+})
+
 app.get('/:page', function(req, res){
 	var submenu;
 	
@@ -30,7 +37,11 @@ app.get('/:page', function(req, res){
 		throw '404 - Page not found';
 	}
 	
-							submenu: submenu
+	res.render('menu', {
+		title: req.params.page,
+		config: config,
+		submenu: submenu
+	});	 
 });
 
 app.listen(3000);
