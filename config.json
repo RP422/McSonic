@@ -44,6 +44,11 @@
 				"img_path": "images/sides/plated-mac-and-cheese.jpg"
 			},
 			{
+				"name": "Corn",
+				"description": "A bowl of corn",
+				"img_path": "images/sides/corn.jpg"
+			},
+			{
 				"name": "House Salad",
 				"description": "A simple salad",
 				"img_path": "images/sides/salad.jpg"
