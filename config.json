@@ -4,27 +4,27 @@
 			{
 				"name": "Black Angus Burger",
 				"description": "A large juicy burger...",
-				"img_path": "/images/burgers/black_angus_burger.png"
+				"img_path": "images/burgers/black_angus_burger.png"
 			},
 			{
 				"name": "Chipotle Burger",
 				"description": "Chipotle Burgerr.....",
-				"img_path": "/images/burgers/chipotle-burger.png"
+				"img_path": "images/burgers/chipotle-burger.png"
 			},
 			{
 				"name": "Flippin' Tall Burger",
 				"description": "The flippin tall burger",
-				"img_path": "/images/burgers/flippin-tall-burger.png"
+				"img_path": "images/burgers/flippin-tall-burger.png"
 			},
 			{
 				"name": "Lil' Slider",
 				"description": "The lil slider burger",
-				"img_path": "/images/burgers/lil-slider.png"
+				"img_path": "images/burgers/lil-slider.png"
 			},
 			{
 				"name": "Pineapple Burger",
 				"description": "The pineapple burger...",
-				"img_path": "/images/burgers/pineapple-burger.png"
+				"img_path": "images/burgers/pineapple-burger.png"
 			}
 		],
 		"sides": [
