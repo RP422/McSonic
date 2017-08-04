@@ -30,8 +30,7 @@ app.get('/:page', function(req, res){
 		throw '404 - Page not found';
 	}
 	
-	console.log(req.params.page)
-	res.render('menu', {title: req.params.page, config: config, submenu: submenu})
+							submenu: submenu
 });
 
 app.listen(3000);
