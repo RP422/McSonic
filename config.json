@@ -57,7 +57,7 @@
 		"desserts": [
 			{
 				"name": "Pure Unfiltered Evil",
-				"description": "Our mad scientists in the McSonic laboratories have come up with this diabolical creation. It's a mixed bowl filled with M&Ms and Skittles. We don't know (and don't care) how much of either is in the bowl. Just that there's both. Enjoy.",
+				"description": "It's a mixed bowl filled with M&Ms and Skittles. We don't know (and don't care) how much of either is in the bowl. Just that there's both. Enjoy.",
 				"img_path": "images/desserts/skittles-mms.jpg"
 			},
 			{
@@ -77,7 +77,7 @@
 			},
 			{
 				"name": "Broken Cookie Platter",
-				"description": "This would be a normal cookie platter, but the cookies kept on breaking. Instead of wasting about 30 cookies per platter, we decided to include the broken cookies.",
+				"description": "Cookies are apparently really easy to break. We decided not to bother keeping them intact.",
 				"img_path": "images/desserts/broken-cookie.jpg"
 			}
 		]

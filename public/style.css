@@ -7,16 +7,13 @@
 
 html, body {
 	background: #6F0000;
-	height: 100%;
 	font-family: 'Droid Serif', 'serif';
 }
 
 header {
 	background: #A00;
-	height: 50px;
-	width: 100%;
 	display: block;
-	float: left;
+	padding-top: 10px;
 }
 
 nav {
@@ -48,7 +45,7 @@ nav ul li a:hover {
 	border: 1px solid #FFF;
 	background: #FFF;
 	color: #A00;
-	padding-bottom: 10px;
+	padding-top: 10px;
 	border-bottom: 2px solid #A00;
 	cursor: pointer;
 	transition: all .25s ease-out;
@@ -58,6 +55,7 @@ nav ul li a:hover {
 #directions{
 	width: 700px;
 	margin: auto;
+	padding-bottom: 10px;
 }
 
 header h1 {
@@ -65,7 +63,6 @@ header h1 {
 	padding: 5px;
 	margin-left: 20px;
 	display: inline-block;
-	float: left;
 }
 
 #header-logo {
@@ -75,9 +72,9 @@ header h1 {
 	line-height: 50px;
 	vertical-align: middle;
 	display: inline-block;
-	float: left;
 	font-weight: bold;
 	margin-left: 30px;
+	float: left;
 }
 
 .header-wrapper {
@@ -89,8 +86,10 @@ header h1 {
 #content {
 	width: 85%;
 	margin: 0 auto;
+	padding: 10px 0px;
 	height: 100%;
 	background: #ffd349;
+	clear: all;
 }
 
 #content h2 {
@@ -103,23 +102,20 @@ header h1 {
 	margin-bottom: 10px;
 }
 
-#content p {
-	margin-left: 25px;
-}
-
-
 .food-display {
-	width: 600px;
+	width: 70%;
 	margin: 0 auto;
+	text-align: center;
 }
 
 /* Container for an individual item */
 .food-item {
-	max-width: 250px;
-	float: left;
-	border: 1px solid blue;
+	display: inline-block;
+	max-width: 300px;
 	border: 1px solid #A00;
 	margin: 10px;
+	padding: 10px;
+	background: #ffd349;
 }
 
 /* Food item title */
@@ -132,7 +128,8 @@ header h1 {
 }
 
 .food-item img {
-	max-width: 250px;
+	max-width: 300px;
+	max-height: 225px;
 	vertical-align: middle;
 	margin-top: 10px;
 }
@@ -140,6 +137,7 @@ header h1 {
 /* Description of a food item */
 .food-item p {
 	font-style: italic;
+	margin-top: 5px;
 }
 
 #home-burger {
